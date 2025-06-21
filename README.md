@@ -41,7 +41,9 @@ This will:
 - Configure and register each runner with GitHub
 - Install and start each runner as a system service
 
-➖ Remove All Runners
+--- 
+
+### ➖ Remove All Runners
 ```bash
 ./setup-multiple-runners.sh deinit
 ```
