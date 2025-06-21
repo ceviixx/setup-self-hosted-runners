@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # ====== Configuration ======
-GITHUB_URL="https://github.com/<user>/<repo>"                   # Repository URL
-GITHUB_TOKEN="<YOUR_TOKEN_HERE>"                                # GitHub token: Settings → Actions → Add runner
+GITHUB_URL="https://github.com/<your-username>/<your-repo>"     # Repository URL
+GITHUB_TOKEN="<your-registration-token>"                        # GitHub token: Settings → Actions → Add runner
 RUNNER_VERSION="2.316.1"                                        # Runner version
 NUM_RUNNERS=3                                                   # Number of parallel runners to create
 BASE_DIR="$HOME/actions-runners"
